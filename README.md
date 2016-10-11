@@ -71,6 +71,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 .main {
   display :block;
 }
+
 /* Good */
 .primary {
   display: block;
@@ -118,6 +119,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 .label {
   color: #FFFFFF;
 }
+
 /* Better */
 .label {
   color: #fff;
@@ -148,7 +150,6 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
   padding-left: 15px;
   padding-right: 15px;
 }
-
 
 /* Better */
 .button {
