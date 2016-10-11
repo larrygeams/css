@@ -192,7 +192,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### Prefer dashes over camelCasing in declaring Sass variables.
-```css
+```sass
 /* Good */
 $brandPrimary: #4655a5;
 $brandSecondary: #ddd;
@@ -209,7 +209,7 @@ $font-serif: 'Georgia', serif;
 ```
 
 #### Group your '@include' and '@extend' at the end to make it easier to read the entire selector.
-```css
+```sass
 /* Good */
 .link {
   @extend .button;  
