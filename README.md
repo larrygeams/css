@@ -3,7 +3,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 
 ## CSS Rules
 #### Use soft tabs (2 spaces) for indentation
-
+#### Do not use ID selectors
 #### Prefer dashes over camelCasing in class names.
 ```
 /* Good */
@@ -31,7 +31,6 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 }
 ```
 
-#### Do not use ID selectors
 #### When grouping multiple selectors, keep individual selectors to a single line.
 
 ```
@@ -170,6 +169,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ## Sass Rules
 
 #### Use the '.scss' syntax, never the original '.sass' syntax
+#### Make good use of available mixin libraries on the web [Compass](http://compass-style.org/) and [Bourbon](http://bourbon.io/)
 #### Limit Sass nesting up to three (3) levels deep only for readability
 ```
 .button {
@@ -192,8 +192,6 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
   } // .button-primary
 }
 ```
-
-#### Make good use of available mixin libraries on the web [Compass](http://compass-style.org/) and [Bourbon](http://bourbon.io/)
 
 #### Prefer dashes over camelCasing in declaring Sass variables.
 ```
