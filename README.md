@@ -5,7 +5,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 #### Use soft tabs (2 spaces) for indentation
 #### Do not use ID selectors
 #### Prefer dashes over camelCasing in class names.
-```
+```css
 /* Good */
 .buttonPrimary {
   display: block; 
@@ -32,8 +32,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### When grouping multiple selectors, keep individual selectors to a single line.
-
-```
+```css
 /* Good */
 .primary, .section, .footer {
   display: block;
@@ -50,7 +49,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### Include one space before the opening brace '{' in rule declarations
-```
+```css
 /* Good */
 .primary{
   display: block;
@@ -63,7 +62,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### In properties, put a space after, but not before, the ':' character.
-```
+```css
 /* Bad */
 .primary {
   display : block;
@@ -83,7 +82,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### Place closing braces '}' of rule declarations on a new line
-```
+```css
 /* Good */
 .primary {
   display: block; }
@@ -95,8 +94,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### End all declarations with a semi-colon.
-
-```
+```css
 /* Good */
 .button {
   display: block; 
@@ -115,7 +113,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### Lowercase all hex values and use shorthand hex values where available.
-```
+```css
 /* Good */
 .label {
   color: #FFFFFF;
@@ -127,7 +125,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### Avoid specifying units for zero values
-```
+```css
 /* Good */
 .link {
   margin: 0px;
@@ -140,7 +138,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### Use shorthand notation for code efficiency
-```
+```css
 /* Good */
 .button {
   margin-left: auto;  
@@ -160,7 +158,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### Use JavaScript-specific classes to bind to, prefixed with '.js-'
-```
+```css
 <button class="button button-primary js-submit-to-signup">Submit</button>
 ```
 
@@ -171,7 +169,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 #### Use the '.scss' syntax, never the original '.sass' syntax
 #### Make good use of available mixin libraries on the web [Compass](http://compass-style.org/) and [Bourbon](http://bourbon.io/)
 #### Limit Sass nesting up to three (3) levels deep only for readability
-```
+```css
 .button {
   margin-left: auto;  
   margin-right: auto;  
@@ -194,7 +192,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### Prefer dashes over camelCasing in declaring Sass variables.
-```
+```css
 /* Good */
 $brandPrimary: #4655a5;
 $brandSecondary: #ddd;
@@ -211,7 +209,7 @@ $font-serif: 'Georgia', serif;
 ```
 
 #### Group your '@include' and '@extend' at the end to make it easier to read the entire selector.
-```
+```css
 /* Good */
 .link {
   @extend .button;  
