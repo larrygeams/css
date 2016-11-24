@@ -159,7 +159,7 @@ Standards for developing flexible, durable, and sustainable CSS and Sass.
 ```
 
 #### Use JavaScript-specific classes to bind to, prefixed with '.js-'
-```css
+```html
 <button class="button button-primary js-submit-to-signup">Submit</button>
 ```
 
